@@ -28,7 +28,7 @@ function renderChocolate(){
       total+=flavours.Chocolate;
     } 
     else {
-      
+
       document.querySelector(`#layer${a}`).style.display = "none";
       chocobtn.style.padding='5px';
       document.getElementById("item1").style.display="none";   
@@ -48,7 +48,7 @@ function renderStrawberry(){
       total+=flavours.Strawberry;
     } 
     else {
-      
+
       document.querySelector(`#layer${b}`).style.display = "none";
       strbtn.style.padding='5px';
       document.getElementById("item2").style.display="none";   
@@ -68,7 +68,7 @@ function renderButterscotch(){
       total+=flavours.Butterscotch;
     } 
     else {
-      
+
       document.querySelector(`#layer${c}`).style.display = "none";
       btsbtn.style.padding='5px';
       document.getElementById("item3").style.display="none";   
@@ -88,7 +88,7 @@ function renderVanilla(){
       total+=flavours.Vanilla;
     } 
     else {
-      
+
       document.querySelector(`#layer${d}`).style.display = "none";
       vanbtn.style.padding='5px';
       document.getElementById("item4").style.display="none";   
@@ -108,7 +108,7 @@ function renderRedvelvet(){
       total+=flavours.Redvelvet;
     } 
     else {
-      
+
       document.querySelector(`#layer${e}`).style.display = "none";
       revbtn.style.padding='5px';
       document.getElementById("item5").style.display="none";   
@@ -139,4 +139,4 @@ document.querySelector(".btn-redvelvet").onclick = function () {
 document.querySelector(".btn-buy").onclick = function () {
     document.getElementById('item6').innerHTML="Total -------------------------- "+total;
     document.getElementById('candle').style.display="block";
-};
+}; 
